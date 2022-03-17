@@ -1,0 +1,304 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding: 1em;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 153, 255);
+    padding-bottom: 3em;
+}
+h2 {
+    padding: 1em;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+section {
+    text-align: center;
+    position: relative;
+    margin: auto;
+
+    max-width: 70%;
+    background-color: rgb(184, 223, 255);
+    border-radius: 1em;
+    color: black;
+    padding-bottom: 2em;
+}
+
+section>img {
+    position: absolute;
+    margin-top: -7em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8em;
+    height: auto;
+    border-radius: 10%;
+
+}
+
+h3 {
+    text-align: center;
+    padding: 2em;
+}
+ul {
+    list-style-type:none;
+   
+ margin-left: 15%;
+ margin-right: 15%;
+   
+}
+ul > li:first-of-type {
+    margin-bottom: 2em;
+}
+
+
+li:first-of-type {
+
+    margin-left: 60%;
+ 
+}
+li:first-of-type > figure {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 1em;
+
+    background-color: rgb(190, 226, 255);
+
+}
+li:last-of-type{
+    margin-right: 40%;
+    
+}
+li:last-of-type > figure {
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 1em;
+    background-color: rgb(138, 182, 219);
+}
+
+
+figcaption {
+    padding: 1em;
+   
+}
+
+ul > li > figure > img {
+    border-radius: 2em;
+    
+    padding: 1em;
+    max-width: 25%;
+    height: auto;
+
+}
+
+ul > li > figure {
+  
+    background-color: rgb(255, 255, 255);
+  
+}
+.attacks {
+    margin-left: 15%;
+    margin-right: 15%;
+   
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   flex-grow: 4;
+}
+
+button{
+  width: 32%;
+padding:2em;
+    background-color: black;
+    border: none;
+    border-radius: 1em;
+    font-size: 80%;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+button:first-of-type{
+   
+    background-color: rgb(231, 71, 71);
+}
+button:first-of-type:hover{
+    background-color: rgb(211, 48, 48);
+   width: 33%;
+    transition: 0.4s;
+}
+button:nth-of-type(2){
+    background-color: rgb(53, 123, 163);
+}
+button:nth-of-type(2):hover{
+    background-color: rgb(42, 71, 165);
+   width: 33%;
+    transition: 0.4s;
+}
+button:last-of-type{
+    background-color: rgb(73, 71, 71);
+}
+button:last-of-type:hover{
+    background-color: rgb(51, 51, 51);
+   width: 33%;
+    transition: 0.4s;
+}
+.uitleg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    max-width: 50%;
+    height:  auto;
+}
+
+#end-screen{
+ 
+    display: none;
+}
+#limit {
+    position: fixed;
+
+  z-index: 10;
+  color:white;
+    background-color: #000000d5;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    font-size: large;
+
+}
+#limit > ul {
+    margin-top: 20%;
+ 
+} 
+#limit > ul > li:first-of-type{
+    margin-left: 0;
+   min-width: 100%;
+   text-align: center;
+}
+#limit > ul > li:last-of-type a {
+   
+    color: white;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em;
+    padding:1em;
+    margin-right: 5em;
+    margin-right:0%;
+    
+    background-color: red;
+}

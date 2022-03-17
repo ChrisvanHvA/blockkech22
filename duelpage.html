@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <h1>Time to fight!</h1>
+
+    <section>
+        <img src="images/user.png" alt="user">
+        <h2>madame Buckstars</h2>
+        <p>Likes dogs, cats and flamethrowers</p>
+
+    </section>
+    <h3>
+        Choose your attack!
+    </h3>
+
+    <ul>
+        <li>
+            <figure>
+                <img src="images/user.png" alt="user">
+
+                <figcaption>
+                    Opponent
+                    <span class="result-score" data-computer-score>0</span>
+                    <p>Gor Deldier</p>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure>
+                <img src="images/user.png" alt="user">
+
+                <figcaption>
+                    you
+                    <span class="result-score" data-your-score>0</span>
+                    <p>Mister Makker</p>
+                </figcaption>
+            </figure>
+        </li>
+    </ul>
+    <div id="end-screen">
+        <ul>
+            <li>
+                <h3> the game is over!</h3>
+                <p id="lossText"> you lost, would you like to try again?</p>
+            </li>
+            <li>
+                <a href="duelpage.html" id="again">fight again</a>
+
+                <a href="index.html" id="goBack">Go back</a>
+            </li>
+        </ul>
+    </div>
+    <figcaption>
+        Round
+        <span class="result-score" data-round>1</span>
+        <p id="status">Choose your attacks and defeat your opponent, best out of 5 wins!</p>
+
+        <div class="attacks">
+
+            <button class="fire" data-selection="flame">Flamesword</button>
+
+
+            <button class="water" data-selection="ice">Icewhip</button>
+
+
+            <button class="rock" data-selection="stone">Stonehammer</button>
+
+
+        </div>
+
+        <img class="uitleg" src="images/explanations.png" alt="explanation">
+        <script src="rps.js" async defer></script>
+</body>
